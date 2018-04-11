@@ -52,4 +52,16 @@ public class Statistic {
 		}
 		return totalValues;
 	}
+	
+	/*
+	 * 获得累加数组
+	 * */
+	public static double[] accumlate(double[] values) {
+		double accumlateValues[] = new double[values.length];
+		accumlateValues[0] = values[0];
+		for (int i=1; i<values.length; i++) {
+			accumlateValues[i] = accumlateValues[i-1] + values[i];
+		}
+		return accumlateValues;
+	}
 }

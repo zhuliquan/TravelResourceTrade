@@ -1,8 +1,8 @@
 package com.market.utility;
 
 
+import com.market.setting.Setting;
 import com.market.utility.DoubleAndInteger;
-import com.setting.Setting;
 
 public class UtilityofCost {
 			//开展本次旅游活动的游客数目

@@ -11,9 +11,7 @@ import cern.jet.random.engine.RandomEngine;
 import cern.jet.random.sampling.WeightedRandomSampler;
 
 public class Test {
-
-	public Test() {
-		
+	public Test() {		
 	}
 	static void swap(A a) {
 		a.a = 15;
@@ -34,7 +32,6 @@ public class Test {
         System.out.println("æÿ’Û≥À∑®");
         System.out.println(Algebra.DEFAULT.mult(matrix, transpose));
         System.out.println(Normal.staticNextDouble(1.0, 0.1));
-		
 	}
 }
 class A{
